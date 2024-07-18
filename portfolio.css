@@ -1,0 +1,344 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #081b29;
+    /* min-width: auto; */
+}
+
+.header{
+    background-color: #081b29;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 100;
+} 
+.name{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 40px;
+}
+.navbar a:hover{
+    color: #00abf0;
+}
+.navbar a.active{
+    color: #00abf0;
+}
+.resume{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background: transparent;
+}
+.home{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+    /* margin-top: 40px; */
+    background: url(image/WhatsApp\ Image\ 2024-06-15\ at\ 11.22.44.jpeg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.intro{
+    max-width: 600px;
+    margin-top: 10%;
+}
+.intro h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.intro h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #00abf0;
+    margin-top: 10px;
+}
+.hire{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: rgb(175, 175, 9);
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(5, 5, 73);
+    letter-spacing: 1px;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 40px
+
+}
+.icons a{
+    color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 8px;
+    background: transparent;
+    
+}
+.icons a:nth-child(2){
+   margin-left: 20px;
+
+}
+.icons a:nth-child(3){
+    margin-left: 20px;
+ } 
+ .container1{
+    background-color: rgb(68, 156, 68);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+ }
+ .container2{
+    background-color: rgb(145, 58, 58);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+ }
+ .container{
+    color: white;
+    background-color: #081b29;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+ }
+.about{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.about span{
+    color: red;
+    margin-left: 10px;
+}
+.picture{
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 41%;
+    margin-top: 4%;
+}
+.Developer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  white;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 249px;
+}
+.read{
+    margin-left: 45%;
+    border: none;
+    border-radius: 20px;
+    background-color: #00abf0;
+    padding: 10px;
+    width: 120px;
+    margin-top: 10px;
+    
+}
+
+.skillname{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.skillname span{
+    color: red;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.pic1{
+    width: 80px;
+    margin: auto;
+    padding-top: 10px;
+}
+.pic2{
+    width: 80px;
+    margin: auto;
+    padding-top: 10px;
+}
+.pic3{
+    width: 80px;
+    margin: auto;
+    padding-top: 10px;
+}
+.pic4{
+    width: 80px;
+    margin: auto;
+    padding-top: 10px;
+}
+.box2{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.box3{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.box4{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.projects{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects span{
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.selfie1{
+    margin-left: 41%;
+    margin-top: 40px;
+    margin-left: -7%;
+    margin-left: 70px;
+}
+.selfie2{
+    margin-left: 41%;
+    margin-top: -240px;
+}
+.selfie3{
+    margin-left: 75%;
+    margin-top: -222px;
+    margin-bottom: 100px;
+}
+.title1{
+    color:#081b29;
+    font-weight: 900;
+}
+.title2{
+    color:#081b29;
+    font-weight: 900;
+}
+.title3{
+    color:#081b29;
+    font-weight: 900;
+}
+.container3{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    
+}
+.sms{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sms span{
+    color: #00abf0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contactname{
+    padding: 10px;
+    width: 400px;
+}
+.contactemail{
+    padding: 10px;
+    width: 400px;
+}
+.contactmessage{
+    padding: 40px;
+    width: 400px;
+}
+.input1{
+    margin-left: 10%;
+    margin-top: -300px;
+    margin-bottom: 20px;
+}
+.input2{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.input3{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.sendmessage{
+    border: 0;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 240px;
+    margin-bottom: 10px;
+}
+.services5{
+    width: 400px;
+    margin-left: 60%;
+    margin-top: 40px;    
+}
+footer{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
